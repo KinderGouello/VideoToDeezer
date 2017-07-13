@@ -1,0 +1,23 @@
+{
+  "name": "video-to-deezer",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Convert youtube video to Deezer private music",
+  "scripts": {
+    "start": "nodemon --no-colours --watch server server/index.js",
+    "start-prod": "node server/index.js",
+    "lint": "eslint . --ext .js "
+  },
+  "author": "Rémy Gouello",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.14.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.15.0",
+    "eslint-config-airbnb": "^15.0.2",
+    "nodemon": "^1.11.0"
+  }
+}
